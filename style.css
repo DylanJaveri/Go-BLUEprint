@@ -13,6 +13,18 @@ body {
     text-indent: -9000px;
 }
 
+.BP-logo {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    background-color: #002c5a;
+    width: 132px;
+    height: 138px;
+    text-indent: -9000px;
+    margin-left: 850px;
+}
+
 .header {
     background-color: #002c5a; 
     height: 150px;
@@ -36,10 +48,15 @@ body {
 }
 
 .subheadtitle {
-    display: block;
     color: white;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding: auto;
+    flex-basis: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.hidden {
+    display: ;
 }
 
 .mainpage {
@@ -120,7 +137,15 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#business-simple-text {
+    width: 8%;
+    margin: auto;
+}
+
 .uni-img {
     border: 2px solid;
 }
 
+.center {
+    text-align: center;
+}

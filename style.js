@@ -8,3 +8,9 @@ function myFunction(index) {
         content.style.display = "none";
     }
 }
+
+document.getElementById('businessButton').addEventListener('click', function() {
+    const options = document.getElementById('options');
+    options.classList.toggle('hidden');
+});
+
